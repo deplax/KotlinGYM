@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/KotlinGYM.iml" filepath="$PROJECT_DIR$/KotlinGYM.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/KotlinGYM_main.iml" filepath="$PROJECT_DIR$/.idea/modules/KotlinGYM_main.iml" group="KotlinGYM" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/KotlinGYM_test.iml" filepath="$PROJECT_DIR$/.idea/modules/KotlinGYM_test.iml" group="KotlinGYM" />
+    </modules>
+  </component>
+</project>
