@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c968c91f-1d42-4cc2-a131-f68e109e9f14" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.2/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.2/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/KotlinGYM_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/KotlinGYM_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/KotlinGYM_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/KotlinGYM_test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Kotlin/LateInit.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/HelloKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/HelloKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/calculator/CalculatorKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/calculator/CalculatorKt.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -44,11 +40,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/Kotlin/Hello.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+            <state relative-caret-position="17">
+              <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/Kotlin/LateInit.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="33" lean-forward="true" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.10/eedd46031f8f5dc8c088e7d52f136d855fc1bddb/kotlin-stdlib-1.3.10-sources.jar!/kotlin/String.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -101,6 +115,8 @@
         <option value="$PROJECT_DIR$/src/test/Kotlin/CalculatorTest.kt" />
         <option value="$PROJECT_DIR$/src/test/Kotlin/calculator/CalculatorTest.kt" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/main/Kotlin/Hello.kt" />
+        <option value="$PROJECT_DIR$/src/main/Kotlin/LateInit.kt" />
       </list>
     </option>
   </component>
@@ -181,7 +197,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559211989943" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559285264209" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -211,7 +227,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.HelloKt (1)">
+  <component name="RunManager" selected="Kotlin.LateInitKt">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -273,6 +289,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LateInitKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="KotlinGYM_main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="LateInitKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="TestNG">
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
@@ -285,9 +314,11 @@
       <item itemvalue="JUnit.CalculatorTest.checkSum" />
       <item itemvalue="Kotlin.HelloKt" />
       <item itemvalue="Kotlin.HelloKt (1)" />
+      <item itemvalue="Kotlin.LateInitKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.LateInitKt" />
         <item itemvalue="Kotlin.HelloKt (1)" />
         <item itemvalue="JUnit.CalculatorTest.checkSum" />
         <item itemvalue="Kotlin.HelloKt" />
@@ -322,8 +353,16 @@
       <workItem from="1542679337870" duration="2980000" />
       <workItem from="1542760145130" duration="1964000" />
       <workItem from="1543546545542" duration="425000" />
-      <workItem from="1559211733495" duration="239000" />
+      <workItem from="1559211733495" duration="4012000" />
     </task>
+    <task id="LOCAL-00001" summary="[feat]add .gitignore">
+      <created>1559212018433</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1559212018433</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -335,13 +374,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19364000" />
+    <option name="totallyTimeSpent" value="23137000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4240" y="-793" width="1280" height="1417" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29402262" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29402262" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -352,12 +391,12 @@
       <window_info anchor="bottom" id="Sequence" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32754716" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32679245" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32930514" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3290566" />
       <window_info anchor="bottom" id="Docker" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" />
@@ -385,6 +424,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="[feat]add .gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="[feat]add .gitignore" />
   </component>
   <component name="atlassian-ide-plugin-workspace-issues">
     <option name="view">
@@ -436,10 +479,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.10/eedd46031f8f5dc8c088e7d52f136d855fc1bddb/kotlin-stdlib-1.3.10-sources.jar!/kotlin/String.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.10/eedd46031f8f5dc8c088e7d52f136d855fc1bddb/kotlin-stdlib-1.3.10-sources.jar!/kotlin/Primitives.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="394" column="16" selection-start-line="394" selection-start-column="16" selection-end-line="394" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Kotlin/Hello.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        <state relative-caret-position="17">
+          <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Kotlin/LateInit.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="33" lean-forward="true" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
         </state>
       </provider>
     </entry>
